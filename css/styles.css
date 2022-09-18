@@ -181,3 +181,40 @@ footer{
 .copyright{
   padding: 24px;
 }
+
+
+@media (max-width: 728px) {
+  .row{
+    flex-direction: column;
+    
+    
+  }
+
+  .home__description{
+    margin-bottom:24px 0 24px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home__description--btn{
+    max-width:240px;
+  }
+
+  h1{
+    text-align: center;
+    font-size:60px;
+  }
+
+  .subheader{
+    text-align: center;
+    font-size:28px;
+  }
+
+  ul{
+    display:none;
+  }
+
+  .logo{
+    margin:0 auto;
+}
