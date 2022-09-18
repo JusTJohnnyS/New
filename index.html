@@ -19,80 +19,97 @@
       </nav>
 
       <header>
+        <div class="row">
         <div>
           <h1>Best place to learn Frontend</h1>
-          <p>Going from absolute beginner to pro with a simplified prcess</p>
+          <p class="subheader">Going from absolute beginner to pro with a simplified prcess</p>
           <button>Start Now</button>
         </div>
         <figure>
           <img src="./images/laptop.png" alt="" />
         </figure>
+        </div>
       </header>
     </section>
 
     <main>
       <section id="about">
+        
         <h2>About</h2>
+        <div class="row">
+        <div class="section__description">
+          <div class="section__description--wrapper">
         <div>
-          <p>
+          <p class="section__description--para">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
             fugiat, dolorum exercitationem eligendi facere nostrum ex.
             Laudantium quis placeat excepturi nemo similique beatae dolore eos.
             Nesciunt asperiores reprehenderit distinctio eveniet.
           </p>
-          <p>
+          <p class="section__description--para">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
             amet fugiat nam ullam, ab placeat nostrum, in voluptate optio
             ducimus excepturi at, beatae laborum iure. Accusamus placeat dolore
             culpa libero!
           </p>
         </div>
-        <figure>
+      </div>
+        <figure class="about__img--wrapper">
           <img src="./images/about.jpg" />
         </figure>
-      </section>
+          
+        </div>
+        </div>
+        </section>
 
       <section id="discord">
-        <figure>
+        <h2>Discord</h2>
+        <div class="row">
+        <div class="section__description">
+
+        <figure class="about__img--wrapper">
           <img src="./images/discord.png" />
         </figure>
-        <h2>Discord</h2>
-        <div>
-          <p>
+        <div class="section__description--wrapper">
+          <p class="section__description--para">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut beatae
             qui, in ullam, eligendi temporibus totam nulla, laborum sit eos
             officia laudantium quam nobis delectus! Unde amet aspernatur quam
             voluptatem.
           </p>
-          <p>
+          <p class="section__description--para">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat
             aliquam fugit error possimus laborum perferendis, adipisci
             praesentium consequatur quod soluta distinctio similique earum,
             blanditiis ad ex aperiam, ducimus sit iste.
           </p>
         </div>
+        </div>
+        </div>
       </section>
 
       <section id="contact">
          <h2>Contact</h2>
+         <div class="row">
          <form>
           <label>Email</label>
-          <input type="text" placeholder="JBZ@example.com">
+          <input type="email" placeholder="JBZ@example.com">
           <label>Message</label>
           <textarea placeholder="JBZ@example.com"></textarea>
+          <button class="form_btn">Contact Us!</button>
          </form>
-         <button></button>
+         </div>
       </section>
 
       <footer>
-          <img src="./images/FES.svg">
-          <div>
-            <a href="#about">About</a>
-            <a href="#discord">Discord</a>
-            <a href="#contact">Contact</a>
-            <a href="">Courses</a>
+          <img class="footer__logo" src="./images/FES.svg">
+          <div class="footer__links">
+            <a href="#about"   class="footer__link">About</a>
+            <a href="#discord" class="footer__link">Discord</a>
+            <a href="#contact" class="footer__link">Contact</a>
+            <a href="" class="footer__link">Courses</a>
           </div>
-          <p>Copyright Frontend Simplified</p>
+          <p class="copyright">Copyright Frontend Simplified</p>
       </footer>
 
     </main>
